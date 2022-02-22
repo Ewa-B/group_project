@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: #0e1319;
   font-family: Geneva, Verdana, Helvetica, sans-serif;
-  color: #c5c6c7;
+  color: #eb2276;
   font-size: 100%;
   line-height: 1.2;
   background-image: url(images/2.jpg);
@@ -39,11 +39,12 @@ a:focus {
   list-style: none;
 }
 .menu li {
-  display: block; /*display in a vertical column*/
+  display: inline;
+  /* display: block; display in a vertical column */
   margin: 0;
 }
 .menu a {
-  display: block;
+  /* display: block; */
   padding: 0.7em 1.25em 0.7em 1.25em;
   text-decoration: none;
   border-bottom: 1px solid #e63c8b;
